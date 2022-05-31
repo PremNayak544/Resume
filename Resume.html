@@ -1,0 +1,420 @@
+<html>
+<head>
+	<meta charset="utf-3">
+	<meta name="viewport" content="width=device-width, initial-scale=2">
+	<title>My Profile</title>
+
+      	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css" />
+           
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+          
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript" language="javascript"></script>
+    
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+        <script src="JS/wow.min.js" type="text/javascript"></script>
+        <link href="CSS/animate.css" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript">
+                new WOW().init();
+        </script>
+        <style type="text/css">
+        	 	
+                 .fullscreen_bg_video 
+                {
+                    position:absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    overflow:hidden;
+                    z-index: -1;
+                    width:100%;
+                }
+	            
+                   #HomeRow
+	            {
+	                padding-top:7%;  
+             
+	            }
+	            #HomeRow a i.fa
+	            {
+	                color:#ffffff;
+	            }
+	            
+	            #HomeRow div.col-lg-offset-3
+	            {
+	                background:rgba(0,0,0,0.7); 
+	                padding-top:20px;
+	                padding-bottom:20px;
+	                border-radius:5px;
+	                box-shadow:0px 0px 30px black; 
+                    
+	            }
+	   			 #Qualifications
+	            {
+	                background-attachment:fixed;
+	                background-image:url('Images/Qualifications_Image.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:#000000;
+	            }
+	            #QualificationsRow
+	            {
+	                 margin-top:100px;
+	                 margin-bottom:100px;
+	            }
+	            #QualificationsRow div.col-lg-offset-1
+	            {
+	                padding:10px;
+	                background-color:rgba(255,255,255,0.8);
+	                border-radius:8px;
+	                box-shadow:0px 0px 18px blue;
+	                
+	            }
+	            #Qualifications table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Qualifications table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Qualifications table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+	            
+ 				#Skills
+	            {
+	                background-attachment:fixed;
+	                background-image:url('Images/Qualifications_Image.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:#000000;
+	            }
+	            #SkillsRow
+	            {
+	                 margin-top:100px;
+	                 margin-bottom:100px;
+	            }
+	            #SkillsRow div.col-lg-offset-5
+	            {
+	                padding:10px;
+	                background-color:#DCDCDC;
+	                border-radius:8px;
+	                box-shadow:0px 0px 18px blue;
+	                opacity:0.8;
+	            }
+	            #Skills table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Skills table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Skills table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+	         
+	              #Noncollegiate
+	            {
+	                background-attachment:fixed;
+	                background-image:url('Images/Qualifications_Image.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:#000000;
+	            }
+	            #NoncollegiateRow
+	            {
+	                 margin-top:100px;
+	                 margin-bottom:100px;
+	            }
+	            #NoncollegiateRow div.col-lg-offset-1
+	            {
+	                padding:10px;
+	                background-color:#DCDCDC;
+	                border-radius:8px;
+	                box-shadow:0px 0px 18px blue;
+	                opacity:0.8;
+	            }
+	            #Noncollegiate table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Noncollegiate table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Noncollegiate table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+	            
+	            #Experience
+	            {
+	                background-attachment:fixed;
+	                background-image:url('Images/Qualifications_Image.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:#000000;
+	            }
+	            #ExperienceRow
+	            {
+	                 margin-top:100px;
+	                 margin-bottom:100px;
+	            }
+	            #ExperienceRow div.col-lg-offset-5
+	            {
+	                padding:10px;
+	                background-color:#DCDCDC;
+	                border-radius:8px;
+	                box-shadow:0px 0px 18px blue;
+	                opacity:0.8;
+	            }
+	            #Experience table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Experience table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Experience table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+	            #Portfolio
+	            {
+	                height:auto;
+	                padding-bottom:40px;
+	                color:#fff;
+	                font-size:20px;
+	                
+	            }
+	            #PortfolioRow h1
+	            {
+	                color:#000000;
+	                font-family:Monotype Corsiva;
+	            }   
+	            #Portfolio div.col-lg-4
+	            {
+	                margin-bottom:20px;
+	            }  
+	            .ContainerImage
+	            {
+                    position: relative;
+                    width:100%;
+                    margin-left: 10%;
+
+                }
+                .image 
+                {
+                  display: block;
+                  width: 80%;
+                  height: 200px;
+				  transition:1s;
+                }
+
+                .overlay 
+                {
+                  position: absolute;
+                  left: 0;
+                  bottom: 0;
+                  top: 0;
+                  right:0;
+                  background:rgba(0,0,0,0.7);
+                  overflow: hidden;
+                  height: 100%;
+                  width:80%;
+                  opacity:0;
+                  transition:0.5s;
+                }
+                .ContainerImage:hover .overlay 
+                {
+                  opacity:1;
+                }
+				.ContainerImage:hover .image 
+                {
+                  transform:rotate(360deg);
+                }
+                .text 
+                {
+                  color: white;
+                  font-size: 20px;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  -ms-transform: translate(-50%, -50%);
+                  text-align: center;
+                }
+                
+	           #FreelancingRole
+	            {
+	                height:auto;
+	                color:#fff;
+	                background-attachment:fixed;
+	                background-image:url('Images/FreelancingRole_Image.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                
+	            }
+	            #FreelancingRoleRow
+	            {
+	                background:rgba(0,0,0,0.8);
+	                padding-top:10%;
+	                padding-bottom:10%;
+	            }
+	            #FreelancingRoleRow div.col-lg-4
+	            {
+	                text-align:center;
+	            }
+	            #FreelancingRoleRow div.col-lg-4 i.fa
+	            {  
+                    text-align: center;
+                }
+	            #FreelancingRole h1
+	            {
+	                font-family:Monotype Corsiva;
+	            }
+                 @media(max-width:768px)
+	            {
+	                .fullscreen_bg_video 
+                    {
+                        left:-160%;
+                        width:260%;
+                    }
+                    #TechnicalSummary
+                    {
+                        height:auto;    
+                    }
+                }
+                @media(max-width:992px)
+                {
+                    #HomeRow
+	                {
+	                 padding-top:17%;    
+	                }    
+	                #TechnicalSummaryRow
+	                {
+	                 padding-top:17%;    
+	                }
+                }       
+            </style>
+</head>
+<body> 
+	<div id="Home" class="container">
+              <video src="Video/V1.mp4" autoplay loop muted class="fullscreen_bg_video"></video>
+              <div class="row" id="HomeRow">
+                   <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-2 col-lg-6 col-md-6 col-sm-8 col-xs-12 wow slideInDown" data-wow-duration="3s">
+                        <center><img src="Images/Prem.jpeg" style="width:250px;height:315px;border-radius:5px;border-style: ridge;border-width: 6px;border-color: white;" alt="Prem Nayak" /></center>
+                        <center style="color:#ffffff;font-family: Georgia;"><h2>Prem Nayak</h2></center>
+                        <center style="color:#ffffff;"><h4 style="font-family: Georgia;">Student Pursuing BCA
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                 <center style="color:#ffffff;"><i class="fa fa-2x fa-phone"></i> +91-6359464269</center>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                 <center style="color:#ffffff;"><i class="fa fa-2x fa-envelope-square "></i> <a href="mailto:premnayak544@gmail.com" style="color:#ffffff;">premnayak544@gmail.com
+                                 </a></center>
+                                   
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                               <center style="color:#ffffff;"><i class="fa fa-2x fa-map-marker"></i> Ahmedabad</center>
+                            </div>
+                      	</div>
+                    <hr/>
+                        <hr/>
+                        <center><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a> &nbsp;<a href="#"><i class="fa fa-2x fa-twitter-square"></i></a> &nbsp;<a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a> &nbsp;<a href="#"><i class="fa fa-2x fa-instagram"></i></a></center>
+               </div>
+                    </div>
+    </div>
+    <div id="Qualifications" class="container-fluid">
+        <div id="QualificationsRow" class="row" >
+          	<div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-6 col-md-6 col-sm-6 wow slideInLeft" data-wow-duration="3s">
+                        <br/>
+                        <h2 class="text-center">
+                        	<i class="fa fa-object-group"></i> Education Qualification
+                        </h2>
+                        <hr/>
+                        <table class="table table-responsive">
+                            <tr>
+                                <td>Year<br/>2021 - Pursuing</td>
+                                <td>BCA</td>
+                                <td>
+                                Silver Oak University of Computer Applications</td>
+                            </tr>
+                            <tr>
+                                <td>Year<br/>2020 - 2021</td>
+                                <td>12th<br/>With 66% Result<br/></td>
+                                <td>Nutan English School, Ahmedabad</td>
+                            </tr>
+                            <tr>
+                            	<td>Year<br />2018 - 2019</td>
+                                <td>10th<br/>With 75.6% Result<br/></td><td>Calorx Public School</td>
+                            </tr>
+                      </table>
+               		</div>
+            </div>
+    
+    </div> 
+    <div id="Skills" class="container-fluid">
+              <div class="row" id="SkillsRow" >
+                   <div class="col-lg-offset-5 col-md-offset-5 col-sm-offset-5 col-lg-6 col-md-6 col-sm-6 wow slideInRight" data-wow-duration="3s">
+                        <center><br /><h2><i class="fa fa-object-group"></i> Technical Skills</h2><hr /></center>
+                        <table>
+                            <tr>
+                                <td>Programming Languages:</td>
+                                <td>C, C++, HTML, Python</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Databases:</td>
+                                <td>Oracle 10g</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Operating Systems:</td>
+                                <td>Microsoft Windows</td>
+                            </tr>
+                        </table>
+                   </div>
+              </div>
+                </div>
+   </div>
+   
+   		</div>
+   	</div>
+    
+    <div id="FreelancingRole" class="container-fluid wow bounceInUp" data-wow-duration="3s">
+              <div class="row" id="FreelancingRoleRow">
+                   <center><br /><h1><i class="fa fa-object-group"></i>Social Media Links</h1><hr /></center>
+                   <div class="col-lg-6 col-md-6 col-sm-6 text-center" >
+                        <a href="https://www.instagram.com/_premnayak/" target="_blank"><i class="fa fa-5x  fa-instagram" style="color: #006192;"></i><br />Instagram<br/></a>
+                   </div>
+                   <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+                        <a href="https://github.com/PremNayak544" target="_blank"><i class="fa fa-5x  fa-github-square" style="color:white!important;"></i></a><br>Git Hub<br>
+                   </div>  
+              </div>
+    </div>
+</body>
+</html>
